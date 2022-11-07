@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  background-color: black;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 0.4rem blue;
+}
+.click {
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  border-color: red;
+  font-size: 45px;
+}
+
+#characters-list {
+  display: grid;
+  background-color: blue;
+  max-width: 2000px;
+  width: 50%;
+  margin: 20px;
+}
